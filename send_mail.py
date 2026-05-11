@@ -5,7 +5,7 @@ email_user = os.environ.get("EMAIL_USER")
 email_pass = os.environ.get("EMAIL_PASS")
 
 server = smtplib.SMTP("smtp.gmail.com", 587)
-server.starttls()
+server.starttls()ds
 server.login(email_user, email_pass)
 
 subject = "GitHub Action Email"

@@ -12,7 +12,7 @@ subject = "GitHub Action Email"W
 body = "This email was sent automatically from GitHub Actions."
 
 message = f"Subject: {subject}\n\n{body}"
-
+D
 server.sendmail(email_user, "speednet.cok@gmail.com", message)
 server.quit()
 

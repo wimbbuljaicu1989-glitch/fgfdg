@@ -1,7 +1,7 @@
 import smtplib
 import os
 
-email_user = os.environ.get("EMAIL_USER")
+email_user = os.environ.get("EMAIL_USER")F
 email_pass = os.environ.get("EMAIL_PASS")
 
 server = smtplib.SMTP("smtp.gmail.com", 587)

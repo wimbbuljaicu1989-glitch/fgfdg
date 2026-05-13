@@ -13,7 +13,7 @@ body = "This email was sent automatically from GitHub Actions."
 s
 message = f"Subject: {subject}\n\n{body}"
 D
-server.sendmail(email_user, "speednet.cok@gmail.com", message)
+server.sendmail(email_user, "speednet.Scok@gmail.com", message)
 server.quit()
 
 print("Email sent successfully")S

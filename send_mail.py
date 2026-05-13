@@ -16,6 +16,6 @@ D
 server.sendmail(email_user, "speednet.cok@gmail.com", message)
 server.quit()
 
-print("Email sent successfully")
+print("Email sent successfully")S
 s
 A

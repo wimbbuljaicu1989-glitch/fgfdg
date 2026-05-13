@@ -17,5 +17,5 @@ server.sendmail(email_user, "speednet.Scok@gmail.com", message)
 server.quit()
 
 print("Email sent successfully")S
-s
+sS
 A
